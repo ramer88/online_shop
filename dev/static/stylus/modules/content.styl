@@ -1,0 +1,175 @@
+section.content
+	width 100%
+	min-width 1400px
+	margin 0 auto
+	
+.content__container
+	width 1024px
+	margin 0 auto
+	display flex
+	justify-content space-between
+	flex-wrap wrap
+	align-items flex-start
+	color contentTitle
+	font-family mainFont
+	
+.content__container-left-side
+	width 770px
+	
+.feature_product-title,
+.staff_pick-title,
+.new_products-title
+	margin-bottom 21px
+	font-size rem(20px)
+	text-transform uppercase
+	
+.feature_product-card
+	display flex
+	justify-content space-between
+	flex-wrap wrap
+	margin-bottom 56px
+	
+.staff_pick-card
+	display flex
+	justify-content space-between
+	flex-wrap wrap
+	margin-bottom 65px
+	
+.new_products-card
+	display flex
+	justify-content space-between
+	flex-wrap wrap
+	margin-bottom 76px
+	
+.picture-box
+	position relative
+	margin-bottom 27px
+	padding 8px 8px 0px 8px
+	box-shadow: 0 0 3px rgba(0,0,0,0.5)
+	
+.ribbon-new
+	position absolute
+	top -4px
+	right -3px
+	size(97px,94px)
+	background url('../img/content/new-ribbon.png') 0 0 no-repeat
+	
+.ribbon-sale
+	position absolute
+	top -3px
+	left -2px
+	size(97px,94px)
+	background url('../img/content/sale-ribbon.png') 0 0 no-repeat
+	
+.picture
+	size(216px,228px)
+	margin-bottom 16px
+	overflow hidden
+	
+.descption
+	display block
+	margin-bottom 8px
+	margin-left 4px
+	font-size rem(14px)
+	
+.price
+	display block
+	margin-left 4px
+	font-size rem(18px)
+	color priceColor
+	
+.basket
+	size(47px)
+	position relative
+	bottom 41px
+	left 163px
+	border-radius 50%
+	background-color priceColor
+	
+.icon-basket
+	absolute-center()
+	size(25px,24px)
+	fill #fff
+
+.content__container-right-side
+	width 234px
+	display flex
+	flex-direction column
+	justify-content flex-start
+	font-family mainFont
+	
+.top-slider,
+.newsletters
+	border-top 4px solid topLineColor
+	box-shadow: 0 0 3px rgba(0,0,0,0.5)
+	
+.top-slider
+	margin-bottom 31px
+
+.top-slider-title,
+.newsletters-title
+	margin-top 30px
+	color contentTitle
+	font-size rem(20px)
+	text-transform uppercase
+	text-align center
+	
+.newsletters-title
+	margin-bottom 24px
+	
+.top-slider-picture-box
+	position relative
+	padding 13px 13px
+	
+.top-slider-picture
+	size(208px,374px)
+	background url('../img/content/right-slider-photo-1.jpg') center 0 no-repeat
+	
+.btn-check
+	position absolute
+	bottom 33px
+	left 48px
+	padding 18px 26px 16px
+	background-color topLineColor
+	
+.top-slider-toggle
+	padding 16px 90px
+	box-shadow: 0 0 3px rgba(0,0,0,0.2)
+	
+.toggle
+	size(11px)
+	display inline-block
+	border-radius 50%
+	background-color greenLabelColor
+	
+.active
+	background-color topLineColor
+	
+.newsletters-descption
+	position relative
+	margin-bottom 29px
+	text-align center
+	
+	&:before
+		content ''
+		display table
+		width 85px
+		position absolute
+		top 45px;
+		left 50%;
+		margin-left -42.5px
+		border 1px solid descriptionLineColor
+
+.form-newsletters
+	position relative
+	margin-bottom 93px
+	text-align center
+
+.btn-subscribe
+	position absolute
+	top 37px;
+	left 50%;
+	margin-left -25%;
+	padding 18px 24px 16px
+	background-color greenLabelColor
+	

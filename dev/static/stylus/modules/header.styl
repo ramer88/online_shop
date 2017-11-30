@@ -1,0 +1,143 @@
+section.header
+	width 100%
+	max-width 1400px
+	margin 0 auto
+	
+.menu-top
+	display flex
+	justify-content space-between
+	flex-wrap wrap
+	padding 16px 188px
+	background-color TopMenuColor
+	color TopMenuColor
+	font-size rem(14px)
+
+.menu-top__left-side
+	width 100%
+	max-width 249px
+	display flex
+	justify-content space-between
+	color topMenuTextColor
+	
+.menu-top__left-side
+	span:first-child
+		margin-right 8px
+		color leftTopMenuColor
+	
+.menu-top__left-side
+	a
+		color topMenuTextColor
+
+ul.languages
+	position relative
+
+ul.currency
+	position relative
+	span:last-child
+		text-transform uppercase
+		
+.icon-down-arrow
+	size(9px,6px)
+	fill topMenuTextColor
+	
+.english
+	position absolute
+	top 7px
+	left 131px
+	
+.Usd
+	position absolute
+	top 7px
+	left 104px
+	
+/*Right side menu*/
+
+.menu-top__right-side
+	width 100%
+	max-width 357px
+	display flex
+	justify-content space-between
+	
+	li
+		padding 0 12px 0
+		border-right 1px solid leftTopMenuColor
+		
+		a
+			color topMenuTextColor
+		
+	& li:last-child
+		border-right none
+		padding-right 0
+		
+	& li:first-child
+		padding-left 0
+
+.side-bar
+	display flex
+	justify-content space-between
+	
+/*Bottom menu*/
+
+.menu-bottom
+	display flex
+	justify-content space-between
+	padding 40px 188px
+	color bottomMenuTextColor
+	font-family boldFont
+	font-size rem(14px)
+	
+.menu-bottom-left-navigation
+	width 570px
+	display flex
+	justify-content space-between
+	align-items center
+	
+	.logo
+		text-transform uppercase
+		font-size rem(25px)
+
+ul.navigation-menu
+	width 347px
+	display flex
+	justify-content space-between
+
+.menu-bottom-right-searh
+	width 334px
+	display flex
+	justify-content space-between
+	align-items center
+	
+.searh-form
+	position relative
+	input
+		width 172px
+		padding 6px 8px 7px 9px
+		
+.icon-searcher
+	position absolute
+	top 10px
+	left 146px
+	size(15px,14px)
+	fill bottomMenuTextColor
+	
+.sale,
+.cart
+	position relative
+	size(35px)
+	border-radius 50%
+	background-color greenLabelColor
+
+.icon-label
+	position absolute
+	top 10px
+	left 8px
+	size(20px,17px)
+	fill #fff
+	transform: scale(-1, 1)
+
+.icon-cart
+	position absolute
+	top 10px
+	left 7px
+	size(19px,17px)
+	fill #fff

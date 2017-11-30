@@ -1,0 +1,58 @@
+section.slider
+	margin-bottom 47px
+
+.slider-conteiner
+	position relative
+	width 100%
+	max-width 1400px
+	height 473px
+	margin 0 auto
+	background url('../img/content/slide-1.jpg') 0 0 no-repeat
+	background-size contain
+	
+.slider-title
+	position absolute
+	top 39%
+	left 17%
+	font-family lightFont
+	font-size rem(30px)
+	color #fff
+	span
+		display block
+		background-color rgba(#000.50)
+		
+	& span:first-child
+		display inline-block
+		margin-bottom 3px
+		padding 13px 32px 13px 15px
+
+	& span:last-child
+		font-family boldFont
+		padding 14px 17px
+		
+.slider-arrow
+	position relative
+	width 100%
+	height auto
+	size(67px)
+	border-radius 50%
+	background-color #fff
+	cursor pointer
+	
+.icon-slide-arrow
+	size(18px,31px)
+	fill arrowColor
+	absolute-center()
+	
+.slider-arrow-1
+	position absolute
+	top 43%
+	right 106px
+
+.slider-arrow-2
+	position absolute
+	top 43%
+	left 106px
+	
+.slide-arrow-left
+	transform scale(-1, 1)translate(60%,-50%)

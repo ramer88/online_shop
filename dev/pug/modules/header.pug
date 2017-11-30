@@ -1,0 +1,43 @@
+section.header
+	.menu-top
+		.menu-top__left-side
+			ul.languages
+				span Languages:
+				span
+					a(href="#") English
+						+icon('down-arrow','english')
+			ul.currency
+				span Currency:
+				span
+					a(href="#") Usd
+						+icon('down-arrow','Usd')
+		.menu-top__right-side
+			ul.side-bar
+				li
+					a(href="#") Account
+				li
+					a(href="#") Wishlist
+				li
+					a(href="#") Checkout
+				li
+					a(href="#") Login
+				li
+					a(href="#") <nobr>Sign Up</nobr>
+	.menu-bottom
+		.menu-bottom-left-navigation
+			.logo <nobr>Leo Shop</nobr>
+			ul.navigation-menu
+				li Home
+				li Women
+				li Men
+				li Other
+				li Purchase
+		.menu-bottom-right-searh
+			form(action="" method="post").searh-form
+				input(type="search" name="login" id="search-field" placeholder="Search..")
+				+icon('searcher')
+			.sale
+				+icon('label', 'cicle')
+			.cart
+				+icon('cart', 'cicle')
+			.cart-number cart(0)
